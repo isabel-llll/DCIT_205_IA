@@ -92,12 +92,32 @@
         <a href="contact.html">Contact</a>
         <a href="faculty.html">Faculty</a>
         <a href="academics.html">Academics</a>
-        <a href="staff.html">Staff</a>
+        <a href="projects.html">Student Projects</a>
         <a href="alumni.html">Alumni</a>
     </nav>
 
     <section>
-        <h2>Welcome to the Computer Science Department</h2>
+  <title>Moving Words</title>
+  <style>
+    @keyframes moveRight {
+      0% { transform: translateX(0); }
+      50% { transform: translateX(100px); }
+      100% { transform: translateX(0); }
+    }
+
+    .moving-words {
+      display: inline-block;
+      animation: moveRight 4s infinite; 
+      }
+        </style>
+</head>
+<body>
+
+  <h2><center> <span class="moving-words">Welcome to the Computer Science Department</span></center></h2>
+
+</body>
+</html>
+
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in justo et turpis convallis eleifend.
             Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum
             ac
